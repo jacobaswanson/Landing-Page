@@ -1,0 +1,40 @@
+.hero .main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero .secondary, .hlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+h1 {
+
+}
+
+button {
+    color: #3882F6;
+    background-color: #3882F6;
+}
+
+.info {
+
+}
+
+div .quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
