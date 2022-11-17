@@ -1,10 +1,42 @@
-.hero .main {
-    font-size: 48px;
+body {
+    margin: 0;
+}
+
+.header{
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.hcontent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
     font-weight: 800;
+    font-size: 48px;
     color: #F9FAF8;
 }
 
-.hero .secondary, .hlink {
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hcontainer{
+    display: flex;
+    flex-basis: 350px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.hlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -14,21 +46,21 @@
     color: #F9FAF8;
 }
 
-.hero {
-    background-color: #1F2937;
-}
-
 h1 {
 
 }
 
 button {
-    color: #3882F6;
+    color: #ffffff;
     background-color: #3882F6;
 }
 
-.info {
-
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 div .quote {
