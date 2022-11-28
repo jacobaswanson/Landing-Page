@@ -85,10 +85,31 @@ button {
     border-radius: 10px;
 }
 
-div .quote {
+div.quote1 {
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+}
+
+.quote2 {
+    display: flex;
+    justify-content: right;
+}
+
+.quote {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rightalign {
+    text-align: right;
 }
